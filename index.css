@@ -78,6 +78,7 @@ aside{
     padding: 10px;
     background: #F5F5F5;
     border: 1px solid blue;
+    cursor: pointer;
 }
 
 .study a:active{
@@ -116,7 +117,7 @@ aside{
     margin-bottom: 48px;
 }
 
-#box{
+.box{
     height: auto;
     border: 1px solid gray;
     border-radius: 2px;
@@ -129,7 +130,16 @@ aside{
     color: white;
     border: 1px solid gray;
     padding-left: 18px;
+    cursor: pointer;
 }
+
+.draggedstyle{
+    margin: 10px;
+}
+
+.study1{ color: #004364;}
+.study2{ color: #036CD1;}
+.study3{ color: blue;}
 
 
 /* About us CSS */
